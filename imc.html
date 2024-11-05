@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./imc.css">
+</head>
+<body>
+    <section id ='principal'>
+        <h3>CALCULAR IMC</h3>
+
+       <h3>Altura : <input class="inputs" type="number" id="altura"></h3>
+       <h3> Peso : <input class="inputs" type="number" id ='peso'></h3>
+       <button onclick="calcularPeso()">CALCULAR</button>
+       <div id="resul">Resultado  : </div>
+
+    </section>
+    <script>
+        function calcularPeso () {
+            const altura = parseFloat (document.getElementById('altura').value);
+            const peso =   parseFloat (document.getElementById('peso').value)
+            const resultado = peso / (altura * altura)
+            document.getElementById('resul').innerHTML = 'Resultado  : '+ resultado.toFixed(2)
+        }           
+
+
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,34 @@
+#principal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 500px;
+    width: 400px;
+    background-color: yellow;
+    border-radius: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    
+
+}
+
+
+.inputs {
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    margin-bottom: 10PX;
+    text-align: center;
+    margin-top: 10px;
+    
+}
+
+#resul {
+    background-color: white;
+    margin-top: 20px;
+    height: 100px;
+    width: 300px;
+    text-align: left;
+    
+
+}
